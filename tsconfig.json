@@ -1,0 +1,30 @@
+{
+  "files": [
+    "src/main.ts"
+  ],
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": false,
+    "declarationMap": false,
+    "declaration": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "strict": true,
+    "target": "ES2015",
+    "experimentalDecorators": true,
+    "lib": [
+      "dom",
+      "es5",
+      "scripthost",
+      "es2015.collection"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./index.d.ts"
+  ],
+  "exclude": [
+    "node_modules", /* Exclude files from compilation. */
+    "src/create.ts"
+  ]
+}
